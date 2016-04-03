@@ -6,12 +6,10 @@
     
 <title>Base Game</title>
     
-
-
 </head>
 <body>
 
-   <canvas id="canvas" width="900px" height="600px" style="background-color: red"></canvas>
+   <canvas id="canvas" width="900px" height="600px"></canvas>
 
 <script src="assets/js/libs/utilsPixelarteGame.min.js"></script>
 <script src="assets/js/main.min.js"></script>
