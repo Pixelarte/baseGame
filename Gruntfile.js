@@ -20,7 +20,6 @@ module.exports = function(grunt) {
           my_target: {
             files: {
               'dist/assets/js/main.min.js': ['src/js/main.js'],
-              'dist/assets/js/pixelarteGame.min.js': ['src/js/pixelarteGame.js'],
               'dist/assets/js/libs/utilsPixelarteGame.min.js': ['src/js/utilsPixelarteGame.js']
             
             }
