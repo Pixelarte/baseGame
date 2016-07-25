@@ -1,3 +1,4 @@
+// para utilspixelartegame 1° concat luego grunt minificar
 module.exports = function(grunt) {
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
