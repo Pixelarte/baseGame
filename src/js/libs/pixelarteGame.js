@@ -1,4 +1,5 @@
-function pixelarteGame(data){
+;function pixelarteGame(data){
+	
 	var _root=this;
 
 	this.stats ;
@@ -16,6 +17,7 @@ function pixelarteGame(data){
 	this.SoundManager=[];
 
 	this.init=function(){
+
 		/*VALIDAR CANVAS*/
 		if (Modernizr.canvas) {
 			Canvas = document.getElementById(data.idCanvas);

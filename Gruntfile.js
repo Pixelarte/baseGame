@@ -79,13 +79,13 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks("grunt-contrib-concat");
   grunt.loadNpmTasks('grunt-contrib-uglify');
   grunt.loadNpmTasks('grunt-contrib-imagemin');
-  grunt.loadNpmTasks('grunt-contrib-less');
+  /*grunt.loadNpmTasks('grunt-contrib-less');*/
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-newer');
 
-  grunt.registerTask('default', ['newer:uglify','newer:less','newer:imagemin','watch']);
+  grunt.registerTask('default', ['newer:uglify','newer:imagemin','watch']);
   grunt.registerTask('backend',['newer:uglify','watch:scripts']);
-  grunt.registerTask('frontend',['newer:less','newer:imagemin','watch:css','watch:imagemin']);
-  grunt.registerTask('produccion',['concat','uglify','less','imagemin']);
+  /*grunt.registerTask('frontend',['newer:less','newer:imagemin','watch:css','watch:imagemin']);*/
+  grunt.registerTask('produccion',['concat','uglify','imagemin']);
 
 };
